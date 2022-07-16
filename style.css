@@ -6,11 +6,23 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    color: #F9FaF8;
+    padding-right: 160px;
+    padding-left: 160px;
 }
 
+.header .h3 {
+    font-size: 24px;
+}
+
+.header, .gist, .footer {
+    background-color: #1F2937;
+}
 
 a {
     text-decoration: none;
+    font-size: 18 px;
+    color: #E5E7EB;
 }
 
 ul{
@@ -18,6 +30,35 @@ ul{
     list-style: none;
     gap: 16px;
 }
+
+.gist {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+    padding: 50px;
+}
+
+.gistText p{
+    font-size: 18px;
+    color: #f9faf8;
+    width: 500px;
+}
+
+.gistText h2{
+    font-size: 48px;
+    color: #e5e7eb;
+    width: 500px;
+    font-weight: extra-bold;
+}
+
+button {
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-radius: 5px;
+}
+
 
 .footer {
     text-align: center;
